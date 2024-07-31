@@ -1,1 +1,58 @@
-# CODETECH-TASK1
+NAME : HARISH K
+
+COMPANY : CODTECH IT SOLUTIONS
+
+ID : CT08DS1750
+
+DOMAIN : CYBER SECURITY AND ETHICAL HACKING
+
+DURATION : 4 WEEKS
+
+MENTOR : MUZAMMIL AHMED
+
+OVERVIEW OF THE PROJECT
+
+Project : Password Strength Checker: Evaluating Length, Complexity, and Uniqueness.
+
+Objective
+
+The Password Strength Checker project is designed to evaluate the strength of user-entered passwords. The tool analyzes various factors such as length, complexity, and uniqueness to provide a comprehensive assessment of password strength. The primary goal of this project is to help users create strong, secure passwords by offering feedback on the strength of their passwords and suggesting improvements if necessary.
+
+Key Features
+
+Length Analysis:
+
+The tool checks the length of the password and assigns a score based on its length. Longer passwords generally contribute to stronger password strength.
+
+Complexity Analysis:
+
+The tool evaluates the complexity of the password by checking for the presence of uppercase letters, lowercase letters, digits, and special characters. Each of these elements adds to the complexity score, enhancing the password's security.
+
+Uniqueness Analysis:
+
+The tool assesses the uniqueness of the password by counting the number of distinct characters. A higher number of unique characters indicates a more secure password. Overall Strength Assessment:
+
+Based on the combined scores from length, complexity, and uniqueness, the tool provides a final strength assessment, categorizing the password as "Very Strong," "Strong," "Moderate," or "Weak."
+
+Code Explanation
+
+Main Method:
+
+The main method handles user input by prompting the user to enter a password. It then calls the calculateStrength method to compute the strength score of the password and uses the getStrengthLevel method to determine the strength category based on the score.
+
+Calculate Strength Method:
+
+This method evaluates the password based on three criteria: length, complexity, and uniqueness. Length Score: Assigns a score based on the password's length, with longer passwords receiving higher scores. Complexity Score: Analyzes the presence of different character types (uppercase, lowercase, digits, special characters) and increments the score for each type found. Uniqueness Score: Counts the number of distinct characters in the password and assigns a score based on the count. The total score is the sum of the length, complexity, and uniqueness scores.
+
+Get Strength Level Method:
+
+This method translates the total score into a descriptive strength category. Scores are mapped to categories such as "Very Strong," "Strong," "Moderate," and "Weak," providing users with a clear understanding of their password's strength.
+
+Usage
+
+User Input:
+
+The user is prompted to enter a password.
+
+Output:
+(https://github.com/user-attachments/assets/3bed817f-d831-4df0-b30f-296e7448c2ad)
